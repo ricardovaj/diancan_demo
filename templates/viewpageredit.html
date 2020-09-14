@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #student-add{
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+        #add-form{
+            height: 580px;
+            width: 600px;
+            margin: 40px auto;
+            font-size: 16px;
+            user-select: none;
+            background-color: #fff;
+            border: 1px solid #d0d0d0;
+            position: relative;
+        }
+        #add-form .btn-box{
+            position: absolute;
+            bottom: 15px;
+        }
+        form .form-head{
+            width: 100%;
+            height: 60px;
+            margin-top: 15px;
+            border-bottom: 1px solid #d0d0d0;
+        }
+        form .form-name{
+            height: 40px;
+            line-height: 40px;
+            font: 28px Georgia, "Times New Roman", Times, serif;
+            margin-left: 38px;
+            color: #696969;
+        }
+        form .state{
+            display: block;
+            margin-left:38px;
+            margin-top: 5px;
+            color: #696969;
+            font: 12px Georgia, "Times New Roman", Times, serif;
+        }
+        form div:not(.form-head){
+            margin: 20px 0 20px 80px;
+        }
+        form label{
+            color: #696969;
+            font: 18px Georgia, "Times New Roman", Times, serif;
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+            margin-left: 10px;
+        }
+        form input[type="text"]{
+            border: 1px solid #DADADA;
+            color: #696969;
+            height: 30px;
+            outline: 0 none;
+            padding: 3px 3px 3px 5px;
+            width: 240px;
+            font-size: 14px;
+            line-height:15px;
+            box-shadow: inset 0px 1px 4px #ECECEC;
+        }
+        form textarea{
+<!--            vertical-align: -65px;-->
+            border: 1px solid #DADADA;
+            color: #696969;
+            height: 150px;
+            outline: 0 none;
+            padding: 3px 3px 3px 5px;
+            width: 240px;
+            font-size: 16px;
+            box-shadow: inset 0px 1px 4px #ECECEC;
+        }
+        form .btn{
+            padding: 5px 25px;
+            margin-left: 24px;
+            background: d3d3d3;
+            border: none;
+            padding: 10px 25px 10px 25px;
+            color: #FFF;
+            box-shadow: 1px 1px 5px #B6B6B6;
+            border-radius: 3px;
+            text-shadow: 1px 1px 1px #9E3F3F;
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="student-add">
+
+        <form action="/viewpagereditpost/" id="add-form" method="post" enctype="multipart/form-data">{% csrf_token %}
+            <input type="hidden" name="proid" value="{{viewpagerview.id  }}"/>
+            <input type="hidden" name="oldimgurl" value="{{viewpagerview.imgurl  }}"/>
+            <div class="form-head">
+                <span class="form-name">Add Information</span>
+                <span class="state">Please fill all the texts in the fields</span>
+            </div>
+            <div>
+                <label for="birth">轮播图片：</label>
+                <input type="file" name="viewpic" id="birth"/>
+            </div>
+            <div class="btn-box">
+                <label></label>
+                <input type="submit" id="add-submit" class="btn" value="提交">
+                <input type="reset" value="重置" class="btn">{{ viewpagerview.msg}}
+            </div>
+        </form>
+    </div>
+</body>
+</html>

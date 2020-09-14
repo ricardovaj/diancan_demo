@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a61e8ecc-d7ac-4af4-add0-72417f318596" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../pydcdemo\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c9NVD1CY9eZDusViV2WfXHlQHV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\day24\pydcdemo\templates\css" />
+      <recent name="C:\2020\pydcdemo\pydcdemo" />
+      <recent name="D:\pydcdemo\templates" />
+      <recent name="D:\pydcdemo\static\myadmin\img" />
+      <recent name="D:\pydcdemo\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pydcdemo\static" />
+      <recent name="D:\pydcdemo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pydcdemo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="pydcdemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a61e8ecc-d7ac-4af4-add0-72417f318596" name="Default Changelist" comment="" />
+      <created>1589936870143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589936870143</updated>
+      <workItem from="1589936871517" duration="3159000" />
+      <workItem from="1590404721225" duration="176000" />
+      <workItem from="1590404919629" duration="689000" />
+      <workItem from="1590408446457" duration="125000" />
+      <workItem from="1590447917425" duration="6406000" />
+      <workItem from="1590459157585" duration="7670000" />
+      <workItem from="1590506251403" duration="322000" />
+      <workItem from="1590537203283" duration="154000" />
+      <workItem from="1590537482219" duration="6173000" />
+      <workItem from="1590562552789" duration="1471000" />
+      <workItem from="1590733318952" duration="1688000" />
+      <workItem from="1590795465291" duration="5558000" />
+      <workItem from="1590801973071" duration="1753000" />
+      <workItem from="1590804076105" duration="10283000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="551" y="105" key="#图像" timestamp="1592452137622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="105" key="#图像/0.0.1536.824@0.0.1536.824" timestamp="1592452137622" />
+    <state x="519" y="210" key="FileChooserDialogImpl" timestamp="1592751893322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="519" y="210" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592751893322" />
+    <state x="649" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590452985502" />
+    <state x="379" y="149" key="SettingsEditor" timestamp="1591600463872">
+      <screen x="0" y="0" width="1920" height="1036" />
+    </state>
+    <state x="379" y="149" key="SettingsEditor/0.0.1920.1036@0.0.1920.1036" timestamp="1591600463872" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592181256493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592181256493" />
+  </component>
+</project>

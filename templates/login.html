@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/myadmin/css/login.css"/>
+    <link rel="shortcut icon" href="/static/myadmin/favicon.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <div class="bg">
+        <form action="/loginpost/" method="post" class="login">
+            {% csrf_token %}
+            <div class="title">
+                <span id="login">Login</span>
+                <a href="reister.html"  class="reister">注册</a>
+            </div>
+            <div class="user-name">
+                <label for="account">账号:</label>
+                <input type="text" id="account" name="account">
+            </div>
+            <div class="user-word">
+                <label for="password">密码:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <span id="msg">{{msg}}</span>
+            <div class="btn">
+                <input type="submit" value="登录" id="submit-btn">
+                <input type="reset" value="重置" class="reset">
+            </div>
+        </form>
+    </div>
+    <script src="/static/myadmin/js/jquery-1.11.0.js"></script>
+    <script>
+        // 提交信息
+        $("#submit-btn").click(function (e) {
+            var username = $("#account");
+            if (!username.val().length > 0)
+            {
+                $("#msg").text("请输入用户名");
+                username.focus();
+                e.preventDefault();
+                return false;
+            }
+
+            var password = $("#password");
+            if (!password.val().length > 0) {
+                $("#msg").text("请输入密码");
+                password.focus();
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+</body>
+</html>
